@@ -39,15 +39,15 @@ main {
 }
 
 #szafawawa {
-    background-image: url(img/szafawawa.png);
+    background-image: url(img/szafawawa.svg);
 }
 
 #decide {
-    background-image: url(img/decide.png);
+    background-image: url(img/decide.svg);
 }
 
 #coloring {
-    background-image: url(img/coloring.png);
+    background-image: url(img/coloring.svg);
 }
 
 .line {
