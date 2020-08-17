@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(rgb(230, 235, 230), rgb(246, 247, 249));
+}
+
+header {
+    padding: 60px;
+    font-family: "Lato", sans-serif;
+}
+
+    h1 {
+        margin-bottom: 5px;
+    }
+
+    span {
+        font-weight: 700;
+        padding: 0 10px;
+    }
+
+    a {
+        color: #808080;
+        font-weight: 300;
+    }
+
+    a:hover {
+        color: #f20707;
+    }
+
+main {
+    padding: 60px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#ecocamper {
+    background-image: url(img/ecocamper.png);
+}
+
+#szafawawa {
+    background-image: url(img/szafawawa.svg);
+}
+
+#decide {
+    background-image: url(img/decide.svg);
+}
+
+#coloring {
+    background-image: url(img/coloring.svg);
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    color: #808080;
+}
+
+.card {
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 4px 16px #cdcdcd;
+    margin: 20px auto 20px auto;
+}
+.card a {
+    display: block;
+    height: 100%;
+}
+.card:hover {
+    transform: scale(110%);
+}
